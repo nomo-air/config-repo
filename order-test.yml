@@ -16,4 +16,7 @@ eureka:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
-env: test
+env:
+  test
+label:
+  release

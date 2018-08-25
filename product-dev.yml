@@ -6,6 +6,9 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
   jpa:
     show-sql: true
+  redis:
+    host: localhost
+    port: 6379
 eureka:
   client:
     service-url:

@@ -1,5 +1,5 @@
 zuul:
-  # 全部服务忽略敏感头（全部服务都可传递）
+  # 全部服务忽略敏感头（全部服务都可传递cookie）
   sensitiveHeaders:
   routes:
   # /myProduct/product/list -> /product/product/list

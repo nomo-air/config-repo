@@ -21,4 +21,3 @@ management:
         - refresh
         - routes
         - filters
-        - hystrix.stream

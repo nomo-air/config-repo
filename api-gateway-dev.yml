@@ -13,3 +13,11 @@ zuul:
   ignored-patterns:
     - /**/product/listForOrder
 # 暴露路由端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
+        - routes
+        - filters
